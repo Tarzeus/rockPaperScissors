@@ -13,12 +13,14 @@
         <p id = 'p2'>Computer</p>
     </div>
     <div class="scoreboard">
-        <button class="p1Button">1</button>
-        <button class="cpuButton">2</button>
+        <button id="p1Button"> 0 </button>
+        <button id="cpuButton"> 0 </button>
     </div>
     <div class = "playButton">
-        <button class = "play"> Press here to Play</button>
+        <button class="play" onclick="game()"> Press here to Play</button>
     </div>
+    <div id="roundMsg"></div>
+    <div id ="resultMsg"></div>
     <script src="rps.js"></script>
 </body>
 </html>
